@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /home/ubuntu/napp
-node server.js
+pm2 -f start server.js
