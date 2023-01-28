@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /home/ubuntu/napp
-pm2c -f start server.js
+pm2cd -f start server.js
