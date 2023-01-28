@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /home/ubuntu/k8s
-ls
+sh 1.sh
