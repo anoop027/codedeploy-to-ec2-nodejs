@@ -1,11 +1,12 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /home/ubuntu/napp
+  - source: /buildspec.yml
+    destination: /home/ubuntu/k8s
+  - source: /afterinstall.sh
+    destination: /home/ubuntu/k8s
 hooks:
   AfterInstall:
     - location: afterinstall.sh
       timeout: 100
-  ApplicationStart:
-    - location: applicationstart.sh
+
