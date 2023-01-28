@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/ubuntu/napp
-npm -f install
+cd /home/ubuntu/k8s
+kubectl apply -f client-deployment.yml
