@@ -3,10 +3,10 @@ os: linux
 files:
   - source: /buildspec.yml
     destination: /home/ubuntu/k8s
-  - source: /afterinstall.sh
+  - source: /applicationstart.sh
     destination: /home/ubuntu/k8s
 hooks:
   AfterInstall:
-    - location: afterinstall.sh
+    - location: applicationstart.sh
       timeout: 100
 
